@@ -1,4 +1,5 @@
-﻿class Program{
+﻿class Program
+{
     static void PlayerTurn()
     {
         int x, y;
@@ -23,8 +24,8 @@
         do
         {
             Random rand = new Random();
-            x = rand.Next(1,12);
-            y = rand.Next(1,10);
+            x = rand.Next(1, 12);
+            y = rand.Next(1, 10);
 
         } while (playerBoard[x, y] == 'X' || playerBoard[x, y] == 'O');
 
